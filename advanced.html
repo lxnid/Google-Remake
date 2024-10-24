@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+        class="img-google-nav"
+        alt="Google"
+      />
+      <a href="index.html" class="img-search">Google Search</a>
+    </nav>
+
+    <div class="container">
+        <h1 class="heading">Advanced Search</h1>
+        <hr class="hr">
+        <form action="https://www.google.com/search">
+            <h1 class="form-title">Find pages with..</h1>
+            <div class="frow-contain">
+                <div class="frow">
+                    <p class="el">all these words:</p>
+                    <input class="el" type="text" name="as_q" autofocus autocomplete="off">
+                    <p class="el ell">Type the important words</p>
+                </div>
+                <div class="frow">
+                    <p class="el">this exact word or phrase:</p>
+                    <input class="el" type="text" name="as_epq" autofocus autocomplete="off">
+                    <p class="el ell">Put exact words in quotes</p>
+                </div>
+                <div class="frow">
+                    <p class="el">any of these words:</p>
+                    <input class="el" type="text" name="as_oq" autofocus autocomplete="off">
+                    <p class="el ell">Type OR between all the words you want</p>
+                </div>
+                <div class="frow">
+                    <p class="el">none of these words:</p>
+                    <input class="el" type="text" name="as_eq" autofocus autocomplete="off">
+                    <p class="el ell">put a minus sign just before words that you don't want</p>
+                </div>
+            </div>
+            <input type="submit" value="Advanced search" class="fsubmit">
+        </form>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Google Images</title>
+  </head>
+  <body>
+    <nav>
+      <a href="image-search.html" class="img-search">Google Search</a>
+      <a href="advanced.html" class="img-search">Advanced Search</a>
+      <a href="https://www.gmail.com/" class="nav-element">Gmail</a>
+      <a href="https://www.about.google.com/" class="nav-element">about</a>
+    </nav>
+    <div class="search">
+        <div class="cimg">
+            <img
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Google"
+          />
+          <span class="img-overlay">images</>
+        </div>
+      <form action="https://google.com/search">
+        <input type="text" name="q" value="Google" hidden>
+        <input
+          type="text"
+          name="q"
+          autofocus
+          autocomplete="off"
+          placeholder="Best Matching Images"
+        />
+        <input type="text" name="tbm" value="isch" hidden>
+        <img src="magnifying-glass-solid.svg" class="icon" alt="" /><br />
+        <div>
+          <input type="submit" value="Google Image Search" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
